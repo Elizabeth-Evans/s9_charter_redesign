@@ -16,6 +16,25 @@ a{
 a:hover{
   color:inherit;
 }
+/* HEADER */
+h3.header-info .txt-call {
+    color: #000;
+    font-size: 13px;
+    line-height: 1.2;
+    font-weight: 700;
+}
+h3.header-info .txt-call span {
+    display: block;
+    color: #006496;
+    font-size: 30px;
+    line-height: 1.1;
+}
+h3.header-info .txt-program {
+    display: block;
+    font-size: 10px;
+    line-height: 1.1;
+}
+
 /* NAV */
 .navbar-bg{
   background: linear-gradient(to bottom, rgba(241,241,241,1) 0%,rgba(211,211,211,1) 100%);
@@ -53,8 +72,23 @@ a:hover{
   background:white;
 }
 
+/* PHONE NUMBER */
+.main-content .content-call-now {
+    margin: 0 0 20px 0;
+    color: #006496;
+    font-size: 45px;
+    line-height: 1.2;
+    font-weight: 400;
+}
+
 /* UTILITIES */
 
 .gutter {
   padding: 20px;
+}
+.float-right{
+  float:right;
+}
+.negative-margin{
+  margin-top:-21px;
 }
