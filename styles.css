@@ -12,6 +12,7 @@
 a{
   text-decoration: none !important;
   color:inherit;
+  cursor:pointer;
 }
 a:hover{
   color:inherit;
@@ -275,8 +276,25 @@ sup {
     margin-left: -18px;
 }
 
+/* CAROUSEL */
 
+.carousel-content .item{
+  height:300px;
+}
+.carousel-control{
+  background-image: none !important;
+  text-shadow: none;
+  color:lightgrey;
+}
+.carousel-control:hover,
+.carousel-control:active{
+  color:grey;
+}
 
+.carousel-caption{
+  color:black;
+  text-shadow: none;
+}
 /* UTILITIES */
 
 .gutter {
