@@ -1,0 +1,12 @@
+/* for use until I get images from previous code */
+
+.border{
+  border:2px lightgray solid;
+}
+
+
+/* UTILITIES */
+
+.gutter {
+  padding: 20px;
+}
