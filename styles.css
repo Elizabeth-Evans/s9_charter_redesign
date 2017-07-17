@@ -72,6 +72,15 @@ h3.header-info .txt-program {
   background:white;
 }
 
+/* MAIN */
+.header-offer{
+  color:white;
+  height: 426px;
+}
+.offer-content{
+  min-height: 450px;
+  box-shadow: 0 10px 8px -8px rgba(0, 0, 0, 0.8);
+}
 /* PHONE NUMBER */
 .main-content .content-call-now {
     margin: 0 0 20px 0;
@@ -81,6 +90,16 @@ h3.header-info .txt-program {
     font-weight: 400;
 }
 
+/* BG IMAGES*/
+.bg-image-inner-main{
+    background: url(images/charter-communications-authorized-retailer-spectrum.png) 93% 15px no-repeat;
+}
+.bg-image-outer-main{
+  background: url(images/charter-spectrum-retailer-communications.jpg) 50% 0% no-repeat;
+}
+.bg-image-inner-main-2{
+  background: url(images/spectrum-charter-authorized-retailer.jpg) 50% 0 no-repeat;
+}
 /* UTILITIES */
 
 .gutter {
@@ -91,4 +110,7 @@ h3.header-info .txt-program {
 }
 .negative-margin{
   margin-top:-21px;
+}
+.top-margin{
+  margin-top:21px;
 }
