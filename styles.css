@@ -17,8 +17,14 @@ a{
 a:hover{
   color:inherit;
 }
-ul li{
-  list-style-type: none;
+/*.column-max-width{
+  max-width: 263px;
+}*/
+.column-min-height-title{
+  min-height:92px;
+}
+.column-min-height-list{
+  min-height:80px;
 }
 /* HEADER */
 h3.header-info .txt-call {
@@ -68,7 +74,7 @@ h3.header-info .txt-program {
   border: 3px solid #cdeeff;
   -webkit-border-radius: 6px;
   border-radius: 6px;
-  position: relative;
+  margin-bottom:12px;
 }
 .package1:hover{
   background:white;
@@ -264,6 +270,9 @@ sup {
     font-size: 18px;
     line-height: 1.4;
     font-weight: 400;
+}
+.promo1-content ul{
+  list-style-type: none;
 }
 .promo1-content ul.list1 li:before {
     position: absolute;
