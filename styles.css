@@ -49,8 +49,7 @@ h3.header-info .txt-program {
 .navbar li:nth-child(2),
 .navbar li:nth-child(3),
 .navbar li:nth-child(4),
-.navbar li:nth-child(5),
-.navbar li:nth-child(6){
+.navbar li:nth-child(5){
   border-left:solid whitesmoke 1px;
 }
 .navbar li:last-child{
@@ -59,8 +58,7 @@ h3.header-info .txt-program {
 .navbar li:first-child,
 .navbar li:nth-child(2),
 .navbar li:nth-child(3),
-.navbar li:nth-child(4),
-.navbar li:nth-child(5){
+.navbar li:nth-child(4){
   border-right: lightgrey solid 1px;
 }
 
@@ -278,7 +276,7 @@ sup {
 
 /* CAROUSEL */
 
-.carousel-content .item{
+/*.carousel-content .item{
   height:300px;
 }
 .carousel-control{
@@ -294,6 +292,25 @@ sup {
 .carousel-caption{
   color:black;
   text-shadow: none;
+}*/
+
+/* LARGE CONTENT SECTION */
+.large-content-section img{
+  vertical-align: middle;
+}
+.large-content-section p{
+  font-size: 16px;
+  line-height: 18px;
+  color: #000;
+  padding-bottom: 8px;
+}
+.img-right {
+    float: right;
+    padding: 0 0 10px 16px;
+}
+.img-left {
+    float: left;
+    padding: 0 16px 10px 0;
 }
 /* PROMO 2 */
 .promo2-content {
