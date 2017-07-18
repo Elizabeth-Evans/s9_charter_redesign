@@ -421,6 +421,30 @@ ul.cities li a {
     font-size: 14px;
     color: #006496;
 }
+/* FOOTER */
+footer {
+    text-align: center;
+}
+footer a{
+  color: #006496;
+  font-weight: bold;
+}
+footer p {
+    margin-bottom: 20px;
+}
+.copy {
+    margin-top: 10px;
+    font-size: 12px;
+}
+footer p {
+    margin-bottom: 20px;
+}
+footer div.disclaimer {
+    font-style: italic;
+    color: #999;
+    font-size: 12px;
+}
+
 
 
 /* UTILITIES */
