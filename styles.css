@@ -252,7 +252,7 @@ h3.header-info .txt-program {
 /* PROMO */
 
 .promo1-content{
-  background: url(images/charter-spectrum-retailer-communications.jpg) 50% 0% no-repeat;
+  background: url(images/internet-charter-spectrum-cable-voice.jpg) 50% 0% no-repeat;
   color:white;
   margin-top:50px;
 }
@@ -304,13 +304,16 @@ sup {
 }*/
 
 /* LARGE CONTENT SECTION */
+.large-content-section a{
+  color:#006496;
+  font-weight: bold;
+}
 .large-content-section img{
   vertical-align: middle;
 }
 .large-content-section p{
   font-size: 16px;
   line-height: 18px;
-  color: #000;
   padding-bottom: 8px;
 }
 .img-right {
@@ -360,15 +363,17 @@ sup {
 .item {
     display: block;
     width: inherit;
-    background: #f5f5f5;
-    border: 1px solid #ccc;
     padding: 12px 20px 12px;
     text-align: left;
     -moz-border-radius: 4px 4px 0 0;
     border-radius: 4px 4px 0 0;
 }
+.container-accord{
+    border: 2px solid #cdeeff;
+    background: #edfbff;
+}
 .item .itemtext {
-    color: #0073AE;
+    color: #006496;
     font-weight: bold;
     font-size: 16px;
     text-align: center;
@@ -376,10 +381,6 @@ sup {
 .item-data {
     width: inherit;
     height: auto;
-    border-left: 1px solid #ccc;
-    border-right: 1px solid #ccc;
-    border-bottom: 1px solid #ccc;
-    background: #f5f5f5;
     display:none;
 }
 .item-data.open{
@@ -388,9 +389,10 @@ sup {
 
 .item .indicator {
     padding: 0px 7px 3px;
-    font-size: 14px;
+    font-size: 18px;
     font-weight: bold;
     text-align: center;
+    cursor: pointer;
 }
 .item-data div {
     margin: 30px 0;
@@ -407,6 +409,7 @@ ul.cities {
     display: inline-block;
     vertical-align: top;
     margin-left: 10px;
+    list-style-type: none;
 }
 ul.cities li {
     line-height: 15px;
@@ -416,7 +419,7 @@ ul.cities li a {
     font-weight: bold;
     font-family: Tahoma, Geneva, sans-serif;
     font-size: 14px;
-    color: #0073AE;
+    color: #006496;
 }
 
 
@@ -439,4 +442,8 @@ ul.cities li a {
 }
 .text-center{
   text-align: center;
+}
+/* BUTTONS */
+.btn{
+  background-color: #006496;
 }
