@@ -295,6 +295,15 @@ sup {
   color:black;
   text-shadow: none;
 }
+/* LOCATIONS */
+.closed{
+  display:none;
+}
+/*.indicator{
+  display:block;
+}*/
+
+
 /* UTILITIES */
 
 .gutter {
