@@ -316,6 +316,13 @@ sup {
   line-height: 18px;
   padding-bottom: 8px;
 }
+.charter-spectrum-has-it-all{
+  margin: 60px 0 40px 0;
+  color: #006496;
+  font-size: 45px;
+  line-height: 1.2;
+  font-weight: 400;
+}
 .img-right {
     float: right;
     padding: 0 0 10px 16px;
