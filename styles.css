@@ -285,7 +285,7 @@ sup {
 
 /* CAROUSEL */
 
-/*.carousel-content .item{
+.carousel-content .item{
   height:300px;
 }
 .carousel-control{
@@ -301,7 +301,7 @@ sup {
 .carousel-caption{
   color:black;
   text-shadow: none;
-}*/
+}
 
 /* LARGE CONTENT SECTION */
 .large-content-section a{
@@ -353,10 +353,66 @@ sup {
     line-height: 1.4;
     font-weight: 400;
 }
+.title-blue{
+  font-size: 22px;
+  color: #0073AE;
+}
+
 /*.visible-lg, .visible-md, .visible-sm, .visible-xs {
     display: none!important;
 }*/
+/* TABLE */
+.table-title{
+  margin: 60px 0 20px 0;
+  color: #006496;
+  font-size: 30px;
+  line-height: 1.2;
+  font-weight: 400;
+}
+.tablepress {
+    margin: 20px 0px;
+    font-size: 12px;
+}
+.tablepress tr {
+    vertical-align: top;
+}
+.tablepress thead th {
+    background-color: #cdeeff;
+    font-weight: 700;
+    vertical-align: middle;
+    border-bottom: 1px solid #4c9fc8;
+}
 
+
+.tablepress td, .tablepress th {
+    padding: 8px;
+    border: none;
+    background: 0 0;
+    text-align: left;
+    float: none!important;
+}
+.tablepress tr {
+    vertical-align: top;
+}
+.tablepress tbody td:first-child,
+.tablepress tbody td:nth-child(2),
+.tablepress tbody td:nth-child(4) {
+    width: 13%;
+}
+.tablepress tbody td:nth-child(2){
+  width:60%;
+}
+.tablepress .odd td {
+    background-color: #f0f9ff;
+}
+.tablepress tbody td {
+    border-top: 1px solid #4c9fc8;
+}
+.tablepress tbody td:first-child,
+.tablepress tbody td:nth-child(2),
+.tablepress tbody td:nth-child(3){
+  padding-right:14px;
+}
 /* LOCATIONS */
 .closed{
   display:none;
@@ -473,6 +529,9 @@ footer div.disclaimer {
 }
 .text-center{
   text-align: center;
+}
+.blue{
+  color:#0073AE;
 }
 /* BUTTONS */
 .btn{
