@@ -1,0 +1,27 @@
+{
+  "name": "s9_charter",
+  "version": "1.0.0",
+  "description": "s9_charter",
+  "author": "Margae",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "ISC",
+  "private": true,
+  "devDependencies": {
+    "bootstrap": "^3.3.6",
+    "grunt": "^1.0.1",
+    "grunt-cli": "^1.2.0",
+    "grunt-contrib-cssmin": "^2.2.1",
+    "grunt-contrib-imagemin": "^1.0.1",
+    "grunt-contrib-uglify": "^3.0.1",
+    "jquery": "^2.2.2"
+  },
+  "resolutions": {
+    "jquery": "1.9.1 - 3"
+  }
+}

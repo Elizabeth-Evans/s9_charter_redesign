@@ -1,16 +1,1 @@
-
-$(document).ready(function(e){
-
-// LOCATIONS expand function START
-  $('.item').click(function (e){
-    if($('.item-data').css('display') != 'block'){
-      $('.active').slideUp('fast').removeClass('active');
-      $(this).next('.item-data').addClass('active').slideDown('slow');
-    } else {
-      $('.active').slideUp('slow').removeClass('active');
-    }
-  });
-// LOCATIONS expand function END
-
-
-});
+$(document).ready(function(e){$(".item").click(function(e){"block"!=$(".item-data").css("display")?($(".active").slideUp("fast").removeClass("active"),$(this).next(".item-data").addClass("active").slideDown("slow")):$(".active").slideUp("slow").removeClass("active")})});
